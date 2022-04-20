@@ -1,0 +1,16 @@
+# At the end of putting the URL eg: http://cobramc.rip/unban place the "/"
+# to be able to add the unban.php or tounban.txt, what would
+# be copied would be "http://cobramc.rip/unban/tounban.txt"
+# and without the "/" at the end it would copy "http://cobramc.rip/unbantounban.txt"
+# and it won't work.
+
+#Enter the URL of your unban website
+URL: 'http://cobramc.rip/unban/'
+#The reply key you have set in your config.php
+URLKey: 'CHANGEME' # $replykey = "CHANGEME"; - sincronize names.
+#Time in seconds how often we check for any pending unbans
+UnbanInterval: 120
+#The command (or commands) you want to be ran on the player you are unbanning, use %player% as the placeholder, and '-' to separate commands
+Command: 'unban %player%-eco set %player% 0'
+#Probably want this disabled
+StackTrace: false

@@ -1,0 +1,8 @@
+main: org.example.Main
+
+name: CobraConnect
+prefix: CobraConnect
+version: 1.3
+description: Connects to your defined website to unban players that have been accepted for ban appeal.
+commands:
+  syncbans:
